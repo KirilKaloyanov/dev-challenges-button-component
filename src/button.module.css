@@ -1,0 +1,11 @@
+button {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 0.8rem 1.6rem;
+    border: 0;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.2rem 0.3rem hsla(0, 0%, 20%, 0.2);
+    cursor: pointer;
+    color: var(--grey25);
+}

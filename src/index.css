@@ -1,3 +1,15 @@
+:root {
+  --black: hsla(231, 69%, 11%, 1);
+  --grey25: hsla(0, 0%, 25%, 1);
+  --grey62: hsl(0, 0%, 62%);
+  --grey66: hsla(0, 0%, 66%, 1);
+  --red: hsla(11, 93%, 57%, 1);
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
