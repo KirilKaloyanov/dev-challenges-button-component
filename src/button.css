@@ -5,19 +5,83 @@ button {
     border-radius: 0.6rem;
     cursor: pointer;
     padding: 0.8rem 1.6rem;
+    border: 0;
+}
+
+button:hover, button:focus {
+    outline: none;
 }
 
 .default {
-    border: 0;
+    /* border: 0; */
     color: var(--grey25);
     background-color: var(--grey88);
 }
 
 .default:hover, .default:focus {
     background-color: var(--grey68);
-    outline: none;
+}
+
+.outline {
+    background-color: white;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.outline:hover, .outline:focus {
+    background-color: var(--blue01);
+}
+
+.text {
+    background-color: white;
+    color: var(--blue);
+    /* border: 0; */
+}
+
+.text:hover, .text:focus {
+    background-color: var(--blue01);
 }
 
 .shadow {
     box-shadow: 0 0.2rem 0.3rem hsla(0, 0%, 20%, 0.2);
+}
+
+.primary {
+    color: white;
+    background-color: var(--primary);
+}
+
+.primary:hover, .primary:focus {
+    background-color: var(--dark-primary);
+}
+
+.secondary {
+    color: white;
+    background-color: var(--secondary);
+}
+
+.secondary:hover, .secondary:focus {
+    background-color: var(--dark-secondary);
+}
+
+.danger{
+    color: white;
+    background-color: var(--danger);
+}
+
+.danger:hover, .danger:focus {
+    background-color: var(--dark-danger);
+}
+
+.sm {
+    padding: .6rem 1.2rem;
+}
+
+.lg {
+    padding: 1.1rem 2.2rem;
+}
+
+.disabled {
+    color: var(--grey62);
+    cursor:not-allowed;
 }

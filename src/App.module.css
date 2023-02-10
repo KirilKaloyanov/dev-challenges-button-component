@@ -31,12 +31,25 @@ aside > div {
 }
 
 .label {
-    margin: 4rem 0 2rem 0;
+    margin: 4rem 0 1rem 0;
     font-size: 1.2rem;
     font-family: 'Ubuntu Mono', sans-serif;
+    color: var(--hrey20);
+}
+
+.smGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(20rem, 30rem));
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(20rem, 30rem));
 }
 
 footer {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
     font-size: 1.4rem;
     font-family: 'Montserrat', sans-serif;
 }
