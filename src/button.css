@@ -22,6 +22,10 @@ button:hover, button:focus {
     background-color: var(--grey68);
 }
 
+.disabled.default:hover, .disabled.default:focus {
+    background-color: var(--grey88);
+}
+
 .outline {
     background-color: white;
     color: var(--blue);
@@ -40,6 +44,10 @@ button:hover, button:focus {
 
 .text:hover, .text:focus {
     background-color: var(--blue01);
+}
+
+.disabled.text:hover, .disabled.text:focus {
+    background-color: white;
 }
 
 .shadow {
