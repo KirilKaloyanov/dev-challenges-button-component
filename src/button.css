@@ -1,0 +1,23 @@
+button {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    padding: 0.8rem 1.6rem;
+}
+
+.default {
+    border: 0;
+    color: var(--grey25);
+    background-color: var(--grey88);
+}
+
+.default:hover, .default:focus {
+    background-color: var(--grey68);
+    outline: none;
+}
+
+.shadow {
+    box-shadow: 0 0.2rem 0.3rem hsla(0, 0%, 20%, 0.2);
+}

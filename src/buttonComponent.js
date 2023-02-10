@@ -1,8 +1,11 @@
-import styles from './button.module.css';
+import './button.css';
 
 export default function Button(props) {
-    console.log(props);
+    let stylesString = 'default';
+    if (props.color || props.variant) stylesString = '';
+    if (!props.disableShadow) stylesString +=' shadow';
+
     return (
-        <button>Default</button>
+        <button className={stylesString}>Default</button>
     )
 }

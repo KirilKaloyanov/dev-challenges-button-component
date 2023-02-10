@@ -30,6 +30,12 @@ aside > div {
     color: var(--black);
 }
 
+.label {
+    margin: 4rem 0 2rem 0;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu Mono', sans-serif;
+}
+
 footer {
     font-size: 1.4rem;
     font-family: 'Montserrat', sans-serif;

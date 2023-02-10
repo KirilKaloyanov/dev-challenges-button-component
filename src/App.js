@@ -18,8 +18,15 @@ function App() {
         </aside>
       </div>
       <div>
-        <Button variant='outline' />
-        <footer><a href="https://devchallenges.io/portfolio/KirilKaloyanov" target={'_blank'}>created by <strong>KirilKaloyanov</strong> - devChallenges.io</a></footer>
+        <div className={styles.label}>&lt;Button /&gt;</div>
+        <Button />
+        <div className={styles.label}>&lt;Button variant='outline' /&gt;</div>
+        <Button variant='outline'/>
+        <div className={styles.label}>&lt;Button variant='text' /&gt;</div>
+        <Button variant='text'/>
+        <div className={styles.label}>&lt;Button disableShadow /&gt;</div>
+        <Button disableShadow/>
+        <footer><a href="https://devchallenges.io/portfolio/KirilKaloyanov" target={'_blank'} rel="noreferrer">created by <strong>KirilKaloyanov</strong> - devChallenges.io</a></footer>
       </div>
     </div>
   );
