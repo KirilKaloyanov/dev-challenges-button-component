@@ -20,6 +20,11 @@ export default function Button(props) {
     if (props.disabled) stylesString += ' disabled'
 
     return (
-        <button className={stylesString} disabled={props.disabled}>{props.label}</button>
+        <button className={stylesString} disabled={props.disabled}>
+            {props.label} &nbsp;
+            <span class="material-icons">
+                add_shopping_cart
+            </span>
+        </button>
     )
 }

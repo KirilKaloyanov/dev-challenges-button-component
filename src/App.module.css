@@ -39,7 +39,12 @@ aside > div {
 
 .smGrid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(20rem, 30rem));
+    grid-template-columns: repeat(2, 25rem);
+}
+
+.mdGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 35rem);
 }
 
 .grid {

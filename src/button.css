@@ -8,6 +8,10 @@ button {
     border: 0;
 }
 
+.material-icons {
+    font-size: 1.4rem;
+}
+
 button:hover, button:focus {
     outline: none;
 }

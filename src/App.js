@@ -41,10 +41,21 @@ function App() {
           </div>
         </div>
 
+        <div className={styles.mdGrid}>
+          <div>
+            <div className={styles.label}>&lt;Button startIcon=”local_grocery_store” /&gt;</div>
+            <Button label='Default' color="Primary" startIcon="local_grocery_store"/>
+          </div>
+          <div>
+            <div className={styles.label}>&lt;Button endIcon=”local_grocery_store” /&gt;</div>
+            <Button label='Default' color="Primary" startIcon="local_grocery_store"/>
+          </div>
+        </div>
+
         <div className={styles.grid}>
           <div>
             <div className={styles.label}>&lt;Button size="sm"/&gt;</div>
-            <Button label='Default'  color="Primary" size="sm"/>
+            <Button label='Default'  color="Primary" size="sm" />
           </div>
           <div>
             <div className={styles.label}>&lt;Button size="md"/&gt;</div>
