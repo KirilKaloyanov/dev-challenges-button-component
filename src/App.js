@@ -44,11 +44,11 @@ function App() {
         <div className={styles.mdGrid}>
           <div>
             <div className={styles.label}>&lt;Button startIcon=”local_grocery_store” /&gt;</div>
-            <Button label='Default' color="Primary" startIcon="local_grocery_store"/>
+            <Button label='Default' color="Primary" startIcon="add_shopping_cart"/>
           </div>
           <div>
             <div className={styles.label}>&lt;Button endIcon=”local_grocery_store” /&gt;</div>
-            <Button label='Default' color="Primary" startIcon="local_grocery_store"/>
+            <Button label='Default' color="Primary" endIcon="local_grocery_store"/>
           </div>
         </div>
 

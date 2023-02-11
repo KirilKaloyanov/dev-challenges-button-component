@@ -21,10 +21,13 @@ export default function Button(props) {
 
     return (
         <button className={stylesString} disabled={props.disabled}>
-            {props.label} &nbsp;
-            <span class="material-icons">
-                add_shopping_cart
-            </span>
+            {props.startIcon ? <span class="material-icons">
+                {props.startIcon} &nbsp; 
+            </span> : ''}
+            {props.label} 
+            {props.endIcon ? <span class="material-icons">
+                &nbsp; {props.endIcon}
+            </span> : ''}
         </button>
     )
 }
